@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.as.kim.service.dao.LoginDAO">
+	
+	<!-- <select id="loginCheck" resultType="integer" parameterMap="com.as.kim.vo.LoginVO">
+		select count(*) from tb_account
+		<where>
+		id = #{id}
+			AND
+		password = #{password}
+		</where>
+	</select> -->
+	
+</mapper>
+
