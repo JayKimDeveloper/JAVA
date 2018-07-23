@@ -31,5 +31,6 @@
 		</c:forEach>
 	</tbody>
 	</table>
+	<button>±Û¾²±â</button>
 </body>
 </html>
