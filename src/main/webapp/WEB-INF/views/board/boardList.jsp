@@ -8,6 +8,7 @@
 <title>Home</title>
 </head>
 <body>
+<form>
 	<h1>Board List</h1>
 	<table border="1">
 	<thead>
@@ -32,5 +33,6 @@
 	</tbody>
 	</table>
 	<button>±Û¾²±â</button>
+</form>
 </body>
 </html>
