@@ -11,6 +11,7 @@
  
  <typeAliases>
  	<typeAlias alias="boardVO" type="com.as.kim.vo.BoardVO"/>
+ 	<typeAlias alias="loginVO" type="com.as.kim.vo.LoginVO"/>
  </typeAliases>
- 
+
  </configuration>
