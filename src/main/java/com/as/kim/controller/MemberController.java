@@ -82,18 +82,4 @@ public class MemberController {
 		return "/home";
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
