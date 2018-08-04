@@ -9,6 +9,7 @@
 <body>
 	<form action="/mail/mailSending" method="post">
 			<input type="text" name="userId" style="width: 100%" placeholder="ID">
+			<button name="ID">ID중복 검사</button>
 			<input type="text" name="userPwd" style="width: 100%" placeholder="password">
 			<input type="text" name="userMail" style="width: 100%" placeholder="이메일 주소">
 	</form>

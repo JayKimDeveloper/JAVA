@@ -29,9 +29,6 @@ public class HomeController {
 	@Resource(name="boardService")
 	private BoardService boardService;
 	
-	@Resource(name="loginService")
-	private LoginService loginService;
-	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
 	/**
@@ -49,21 +46,6 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
-	}
-	
-	@RequestMapping(value = "/loginCheck.do")
-	public void loginCheck(Local locale, Model model, LoginVO loginVO, HttpSession session, HttpServletResponse response) throws Exception {
-		response.setContentType("text/html; charset=UTF-8");
-		
-		if((loginVO.getId() != null && !loginVO.getId().equals("")
-				&& loginVO.getPassword() != null && !loginVO.getPassword().equals(""))) {
-			
-			if(loginService.LoginCheck(loginVO)) {
-				session.setAttribute("login", 0); // 로그인 성공시 세션
-			}
-			
-		}
-		
 	}
 	
 }

@@ -9,6 +9,6 @@
 <body>
 	<p> 개발자 김용현입니다. </p>
 	<button>로그인</button>
-	<button onclick="location.href='/member/createAccount.jsp'">회원가입</button>
+	<button onclick="location.href='/member/createAccount'" value="register">회원가입</button>
 </body>
 </html>
