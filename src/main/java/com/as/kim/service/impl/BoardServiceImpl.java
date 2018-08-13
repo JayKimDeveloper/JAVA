@@ -21,6 +21,12 @@ public class BoardServiceImpl implements BoardService{
 	public List<BoardVO> selectBoardList() throws Exception {
 		return boardMapper.selectBoardList();
 	}
+
+	@Override
+	@Transactional
+	public String InsertBoardList(BoardVO vo) throws Exception {
+		return boardMapper.InsertBoardList(vo);
+	}
 	
 	
 	

@@ -22,6 +22,7 @@ public class BoardController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
+
 	@RequestMapping(value = "/boardList.do", method = RequestMethod.GET)
 	public String boardList(Model model) throws Exception {
 
@@ -33,4 +34,12 @@ public class BoardController {
 
 		return "board/boardList";
 	}
+	
+	@RequestMapping(value = "/boardWrite.do", method = RequestMethod.GET)
+	public String boardWriter(Model model) throws Exception {
+		
+		
+		return "";
+	}
+	
 }

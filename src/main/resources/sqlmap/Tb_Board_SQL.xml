@@ -15,5 +15,18 @@
        FROM TB_BOARD
    ORDER BY NUM DESC
  </select>
+ 
+ <insert id="InsertBoardList" parameterType="boardVO">
+ 	INSERT INTO 
+ 		TB_BOARD 
+ 	VALUES(SEQ_TBL_BOARD.NEXTVAL,
+ 			#{name},
+ 			#{title},
+ 			#{content},
+ 			'0',
+ 			SYSDATE);
+ 
+ </insert>
+ 
 
 </mapper>
